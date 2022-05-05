@@ -1,0 +1,103 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.wapper{
+    margin:auto;
+    width: 980px;
+
+}
+.logo{
+    background: url('IMAGES/group-4.png') no-repeat center center;
+        height: 80px;
+        margin: 20px 0px;
+}
+.menu{
+ height: 45px;   
+ line-height: 45px;
+ background-color: #272f54;
+}
+.menu>.menu-left>a{
+    text-decoration: none;
+    color: #ffff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 20px;
+}
+.menu>.menu-left>a:hover{
+    text-decoration: underline;
+}
+.menu>.menu-right{
+    float: right;
+    margin: -45px 20px;
+}
+.text{
+    padding: 3px;
+}
+.tk{
+    background-color: #db2704;
+    color:white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 11px;
+    padding: 3px 20px;
+}
+.banner img{
+   height: 256px;
+}
+.content{
+  
+}
+
+.name{
+   font-weight: bold;
+    font-size: 18px;
+}
+p{
+    
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 15px;
+}
+.sanpham{
+    float: left;
+    width: 30%;
+    text-align: center;
+    margin-top: 15px;
+    border:0.5px solid gray;
+    margin-left: 32px;
+    padding: 5px;
+    margin-bottom: 15px;
+}
+.sanpham:nth-child(3)
+{float: left;
+    width: 30%;
+    text-align: center;
+    margin-top: 15px;
+    border:0.5px solid gray;
+    margin-right:0px
+    padding: 5px;
+    margin-bottom: 15px;
+}
+
+.gia1{
+    color: rgb(151, 148, 148);
+    font-size: 16px;
+  
+    text-decoration: line-through;
+}
+.gia2{
+    color: red;
+    font-size: 18px;
+}
+footer{
+    clear: both;
+    height: 47px;
+    background-color: #272f54;
+    text-align: center;
+    font-size: 12px;
+    line-height: 47px;
+    color: #ffff;
+}
